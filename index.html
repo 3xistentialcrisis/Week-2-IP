@@ -12,7 +12,6 @@
       <h1><strong>WELCOME</strong></h1>
       <h2><em>TO YOUR AKAN NAME!!</em></h2>
     
-    
       <div class="akan">
         <h3> About</h3>
         <p><strong>This Application tells you your <em>Akan</em> name based on your birthday!</strong></p>
@@ -27,33 +26,36 @@
             <li>Click the submit button to see what your <em>Akan</em> name is!</li>
         </ol>
       </div>
-
     </div>
 
-    <div class="col-md-6">
-      <div class="birthday">
-        <form>
-          Birthday:
-          <input type="date" name="bday">
-          <input type="submit" value="Send">
-        </form>
+    <div class="row">
+    <div class="forms">
+      <div class="col-md-8">
+        <div class="birthday">
+          <form>
+            Birthday:
+            <input type="date" name="bday">
+            <input type="submit" value="Send">
+          </form>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="gender">
+          <form action="">
+            Gender:
+            <p>male</p>
+            <input type="radio" name="gender" value="male">
+            <p>female</p>
+            <input type="radio" name="gender" value="female">
+            <input type="submit" value="Send">
+          </form>
+        </div>
       </div>
     </div>
-
-    <div class="col-md-6">
-      <div class="gender">
-        <form action="">
-          Gender:
-          <p>male</p>
-          <input type="radio" name="gender" value="male">
-          <p>female</p>
-          <input type="radio" name="gender" value="female">
-          <input type="submit" value="Send">
-        </form>
-      </div>
     </div>
-
   </div>
+
   <script src="js/scripts.js"></script>
 </body>
 </html>
