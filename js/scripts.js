@@ -1,0 +1,9 @@
+var bday = akan Date();
+var femaleakan = new Array(7);
+weekday[0] = "Akosua";
+weekday[1] = "Adwoa";
+weekday[2] = "Abenaa";
+weekday[3] = "Akua";
+weekday[4] = "Yaa";
+weekday[5] = "Afua";
+weekday[6] = "Ama";
