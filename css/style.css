@@ -63,6 +63,7 @@ ul{
     font-style: italic;
     text-align: center;
     font-size: x-large;
+    text-emphasis: bold;
 }
 input{
     font-size: x-large
