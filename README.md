@@ -8,10 +8,12 @@ This webpage is deployed on Github. It is therefore accessed through the followi
 ## Known Bugs
 There are no known bugs or issues that would impact or impede access to this webpage. 
 ## BDD
-Given I am on the home page
-When I enter my birthday in the form "DD-MM-YYYY"
-And I select my gender
-Then I should see my akan name displayed on the screen "Kwasi"
+<ol>
+Given I am on the home page,
+When I enter my birthday in the format "DD-MM-YYYY",
+And I select my gender from the following options "male" or "female"
+Then I should see my akan name displayed on the screen. For example "Kwasi" if I am a male born on a Sunday
+</ol>
 ## Technologies Used
 This page was created through JSFiddle, vs code and command line. 
 ## Support and contact details
