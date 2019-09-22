@@ -64,16 +64,9 @@ ul{
     text-align: center;
     font-size: x-large;
 }
-.gender{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: bold;
-    text-align: center;
-    font-size: x-large;
-}
 input{
     font-size: x-large
 }
 .forms{
     background: rgb(2, 153, 2);
 }
-
