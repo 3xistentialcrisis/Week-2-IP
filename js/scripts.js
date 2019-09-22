@@ -1,3 +1,9 @@
+var birthday=document.forms["birthday_form"].onsubmit
+var gender=document.forms["gender_form"].onsubmit
+
+
+
+
 document.forms["birthday_form"].onsubmit =  function getFemaleAkanName(){
     var bday = new Date();
     var femalebday = new Array(7);
