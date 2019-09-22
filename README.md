@@ -1,4 +1,4 @@
-# PORTFOLIO LANDING PAGE
+# AKAN NAME GENERATOR APPLICATION
 #### What is your AKAN Name. 22 September 2019
 #### By ** Wanjiku Karanja **
 ## Description
