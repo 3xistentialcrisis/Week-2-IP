@@ -1,0 +1,113 @@
+body{
+    background-color: yellow;
+    font-size: large;
+}
+img{
+    float: center;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-emphasis: bold;
+}
+h2{
+    color: yellow;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-emphasis: bold;
+}
+h3{
+    color: yellow;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large; 
+    text-emphasis: bold;
+}
+h4{
+    color: yellow;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large; 
+    text-emphasis: bold;
+}
+h5{
+    color: yellow;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large; 
+    text-emphasis: bold;
+}
+h6{
+    color: yellow;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large; 
+    text-emphasis: bold;
+}
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    color:white
+}
+ol{
+    color: white;
+}
+a:link{
+    color: yellow;
+}
+a:visited{
+    color:  chartreuse;
+}
+a:hover{
+    color: white;
+}
+a:link, a:visited, a:hover{
+    text-decoration: none;
+    padding: 14px 25px; 
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.techlaw{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+}
+.Linkedin{
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: medium;
+}
+.contacts{
+    color: white;
+    text-align: center;
+}
+.akan{
+    width: 800px;
+    border: 15px yellow;
+    padding: 50px;
+    margin: 20px;
+    text-align: justify;
+}
+.education{
+    text-align: left;
+}
+.iplaw{
+    font-style: italic;
+    color: yellow;
+}
+.months{
+    font-size: medium;
+    color: yellow;
+    text-emphasis: bold;
+}
