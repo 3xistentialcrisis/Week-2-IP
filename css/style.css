@@ -4,6 +4,10 @@ body{
 }
 img{
     float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 h1{
     color: black;
@@ -38,8 +42,7 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 ul{
-    color:green
-
+    color:green;
 }
 .akan{
     width: 800px;
@@ -54,31 +57,9 @@ ul{
     text-align: center;
     font-size: medium;
 }
-.logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-}
-.techlaw{
+.form{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: center;
     font-size: large;
-}
-.contacts{
-    color: white;
-    text-align: center;
-}
-.education{
-    text-align: left;
-}
-.iplaw{
-    font-style: italic;
-    color: yellow;
-}
-.months{
-    font-size: medium;
-    color: yellow;
-    text-emphasis: bold;
 }
