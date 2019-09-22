@@ -25,16 +25,16 @@ h2{
 }
 h3{
     color: black;
-    text-align: left;
+    text-align: right;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large; 
+    font-size: x-large; 
     text-emphasis: bold;
 }
 h4{
     color: black;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large; 
+    font-size: x-large; 
     text-emphasis: bold;
 }
 p{
@@ -49,17 +49,27 @@ ul{
     border: 15px black;
     padding: 50px;
     margin: 20px;
-    text-align: justify;
+    font-size: large;
+    text-align: right;
 }
 .steps{
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: medium;
+    text-align: left;
+    font-size: large;
 }
-.form{
+.birthday{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: center;
-    font-size: large;
+    font-size: x-large;
+}
+.gender{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    font-size: x-large;
+}
+input{
+    font-size: x-large
 }
