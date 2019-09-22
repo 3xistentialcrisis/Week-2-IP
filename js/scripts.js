@@ -1,4 +1,4 @@
-function getFemaleAkanName() {
+document.forms["birthday_form"].onsubmit =  function getFemaleAkanName(){
     var bday = new Date();
     var femalebday = new Array(7);
     weekday[0] = "Akosua";
@@ -12,6 +12,7 @@ function getFemaleAkanName() {
     var femaleakan = femalebday[bday.getDay()]
     alert(femaleakan);
 }
+
 function getMaleAkanName (){
     var malebday = new Array(7);
     weekday[0] = "Kwasi";
