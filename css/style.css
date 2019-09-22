@@ -13,62 +13,46 @@ h1{
     text-emphasis: bold;
 }
 h2{
-    color: yellow;
+    color: green;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
     text-emphasis: bold;
 }
 h3{
-    color: yellow;
+    color: black;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: large; 
     text-emphasis: bold;
 }
 h4{
-    color: yellow;
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large; 
-    text-emphasis: bold;
-}
-h5{
-    color: yellow;
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large; 
-    text-emphasis: bold;
-}
-h6{
-    color: yellow;
+    color: black;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: large; 
     text-emphasis: bold;
 }
 p{
-    color: white;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
 }
 ul{
-    color:white
+    color:green
+
 }
-ol{
-    color: white;
+.akan{
+    width: 800px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px;
+    text-align: justify;
 }
-a:link{
-    color: yellow;
-}
-a:visited{
-    color:  chartreuse;
-}
-a:hover{
-    color: white;
-}
-a:link, a:visited, a:hover{
-    text-decoration: none;
-    padding: 14px 25px; 
+.steps{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: medium;
 }
 .logo{
     display: block;
@@ -82,22 +66,9 @@ a:link, a:visited, a:hover{
     text-align: center;
     font-size: large;
 }
-.Linkedin{
-    color: yellow;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: medium;
-}
 .contacts{
     color: white;
     text-align: center;
-}
-.akan{
-    width: 800px;
-    border: 15px yellow;
-    padding: 50px;
-    margin: 20px;
-    text-align: justify;
 }
 .education{
     text-align: left;
