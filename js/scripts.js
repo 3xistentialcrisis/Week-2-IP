@@ -1,5 +1,7 @@
 document.forms["temperature_form"].onsubmit = function(){
-    var birthday=document.getElementById("birthday")
+    var day=document.getElementById("day")
+    var month=document.getElementById("month")
+    var year=document.getElementById("year")
     var male=document.getElementById("male")
     var female=document.getElementById("female")
     var result=document.getElementById("result")
@@ -10,7 +12,18 @@ function a(){
     var dates=new Date(birthday.value)
     var day=dates.getDay();
 }
-if (d<=0)
+if (day<=0){
+    alert("Invalid Day");
+}
+if (day>31){
+    alert("Invalid Day");
+}
+if (month<=0){
+    alert("Invalid Month");
+}
+if (month>12){
+    alert("Invalid Month");
+}
 
 if (result="female"){
     switch(day)
