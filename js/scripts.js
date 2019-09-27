@@ -1,5 +1,5 @@
 var female = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
-var male = ["Kwasi", "Adwoa", "Abenaa", "Akua","Yaa","Afua","Ama"]
+var male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw","Kofi","Kwame"]
 
 function akanname(){
     var name = "";
