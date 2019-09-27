@@ -1,53 +1,23 @@
-document.forms["temperature_form"].onsubmit = function(){
-    var day=document.getElementById("day")
-    var month=document.getElementById("month")
-    var year=document.getElementById("year")
-    var male=document.getElementById("male")
-    var female=document.getElementById("female")
-    var result=document.getElementById("result")
-}
+var female = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+var male = ["Kwasi", "Adwoa", "Abenaa", "Akua","Yaa","Afua","Ama"]
 
+function akanname(){
+    var name = "";
+    var gender = document.forms["akanNames"]["gender"].value;
+    var date = document.forms["akanNames"]["date"].value;
+    var dateObject =new Date(date);
+    var day = dateObject.getDay();
+if (gender === "female") {
+    name=female[day];
+}
+else if (gender==="male") {
+    name = male[day];
+}
+else { console.log("invalid response")
 
-function a(){
-    var dates=new Date(birthday.value)
-    var day=dates.getDay();
 }
-if (day<=0){
-    alert("Invalid Day");
-}
-if (day>31){
-    alert("Invalid Day");
-}
-if (month<=0){
-    alert("Invalid Month");
-}
-if (month>12){
-    alert("Invalid Month");
-}
+document.getElementById("answer").style.display = "block";
+document.getElementById("alert").innerHTML=name;
+return name
 
-if (result="female"){
-    switch(day)
-    {
-        case 0:result.innerHTML="Akosua"; break;
-        case 1:result.innerHTML="Adwoa"; break;
-        case 2:result.innerHTML="Abenaa"; break;
-        case 3:result.innerHTML="Akua"; break;
-        case 4:result.innerHTML="Yaa"; break;
-        case 5:result.innerHTML="Afua"; break;
-        case 6:result.innerHTML="Ama"; break;
-    }
-    alert(day)
-} else{
-    switch(day)
-    {
-        case 0:result.innerHTML="Kwasi"; break;
-        case 1:result.innerHTML="Kwadwo"; break;
-        case 2:result.innerHTML="Kwabena"; break;
-        case 3:result.innerHTML="Kwaku"; break;
-        case 4:result.innerHTML="Yaw"; break;
-        case 5:result.innerHTML="Kofi"; break;
-        case 6:result.innerHTML="Kwame"; break;
-    }
-    alert(day)
 }
-    

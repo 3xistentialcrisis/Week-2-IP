@@ -23,7 +23,7 @@
         <ol>
             <li>Enter your birthday through the form below</li>
             <li>Chose what gender you are</li>
-            <li>Click the <strong>SEND</strong> button to see what your <em>Akan</em> name is!</li>
+            <li>Click the <strong>SUBMIT</strong> button to see what your <em>Akan</em> name is!</li>
         </ol>
       </div>
     </div>
@@ -32,19 +32,23 @@
     <div class="forms">
       <div class="col-md-12">
         <div class="birthday">
-          <form name="birthday_form" action="">
-            Birthday:<br>
-            Day:<input type="tel" maxlength="2" id="day"><br>
-            Month:<input type="tel" maxlength="2" id="month"><br>
-            Year:<input type="tel" maxlength="4" id="year"><br>
-            <hr>
-            Gender:<br>
-            <p>male</p>
-            <input type="radio" name="gender" value="male" id="male">
-            <p>female</p>
-            <input type="radio" name="gender" value="female" id="female">
-            <hr>
-            <input type="submit" value="Get Akan Name" id="result">
+          <form name="akanNames" onsubmit="event.preventDefault(); akanname()">
+            <div class = "Gender">
+              <h2>Gender</h2>
+            </div>
+
+              <select name="gender" id="gender">
+                  <option name="male" value="male">Male</option>
+                  <option name="female" value="female">Female</option>
+              </select>
+
+            <div class="DOB">
+              <h2>
+                  Date of birth
+              </h2>                        
+              <input name="date" type="date"/>Date<br><br>
+              <input type="submit" value="Submit">
+            </div>
           </form>
         </div>
       </div>            
@@ -52,6 +56,19 @@
     </div>
   </div>
 
-  <script src="js/scripts.js"></script>
+  <div>
+    <div class="container" id="answer" style="display:none" > 
+      <div class ="jumbotron "> 
+       <div class="card">
+       <div class="answer">
+               <p>
+                   Your Akan name is <span id="alert"></span>
+               </p>  
+       </div>
+       </div>   
+    </div>
+   </div>
+  </div> 
+  <script src="js/script.js"></script>
 </body>
 </html>
